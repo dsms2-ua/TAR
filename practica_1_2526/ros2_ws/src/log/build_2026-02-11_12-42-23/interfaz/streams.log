@@ -1,0 +1,4 @@
+[0.010s] Invoking command in '/workspace/ros2_ws/src/build/interfaz': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j8 -l8
+[0.027s] -- Configuring incomplete, errors occurred!
+[0.028s] See also "/workspace/ros2_ws/src/build/interfaz/CMakeFiles/CMakeOutput.log".
+[0.030s] Invoked command in '/workspace/ros2_ws/src/build/interfaz' returned '2': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j8 -l8

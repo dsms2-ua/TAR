@@ -1,0 +1,23 @@
+[0.036s] Invoking command in '/workspace/ros2_ws/build/interfaz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz -- -j8 -l8
+[0.673s] [  1%] Built target interfaz__cpp
+[0.673s] [ 12%] Built target interfaz__rosidl_generator_c
+[0.673s] [ 12%] Built target ament_cmake_python_copy_interfaz
+[0.673s] [ 23%] Built target interfaz__rosidl_typesupport_cpp
+[0.673s] [ 34%] Built target interfaz__rosidl_typesupport_fastrtps_c
+[0.673s] [ 61%] Built target interfaz__rosidl_typesupport_fastrtps_cpp
+[0.673s] [ 65%] Built target interfaz__rosidl_typesupport_c
+[0.673s] [ 67%] Built target interfaz__rosidl_typesupport_introspection_c
+[0.673s] [ 78%] Built target interfaz__rosidl_typesupport_introspection_cpp
+[0.673s] [ 78%] Built target interfaz
+[0.673s] [ 80%] Built target interfaz__py
+[0.673s] [ 89%] Built target interfaz__rosidl_generator_py
+[0.673s] [ 92%] Built target interfaz__rosidl_typesupport_fastrtps_c__pyext
+[0.674s] [ 96%] Built target interfaz__rosidl_typesupport_introspection_c__pyext
+[0.674s] [100%] Built target interfaz__rosidl_typesupport_c__pyext
+[0.674s] running egg_info
+[0.674s] writing interfaz.egg-info/PKG-INFO
+[0.674s] writing dependency_links to interfaz.egg-info/dependency_links.txt
+[0.674s] writing top-level names to interfaz.egg-info/top_level.txt
+[0.674s] reading manifest file 'interfaz.egg-info/SOURCES.txt'
+[0.674s] writing manifest file 'interfaz.egg-info/SOURCES.txt'
+[0.674s] [100%] Built target ament_cmake_python_build_interfaz_egg

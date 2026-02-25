@@ -1,0 +1,245 @@
+[0.000000] (-) TimerEvent: {}
+[0.000393] (interfaz) JobQueued: {'identifier': 'interfaz', 'dependencies': OrderedDict()}
+[0.000571] (interfaz_servicio_suma) JobQueued: {'identifier': 'interfaz_servicio_suma', 'dependencies': OrderedDict()}
+[0.000592] (mi_accion) JobQueued: {'identifier': 'mi_accion', 'dependencies': OrderedDict()}
+[0.000608] (service_temp) JobQueued: {'identifier': 'service_temp', 'dependencies': OrderedDict()}
+[0.001339] (servicio_suma) JobQueued: {'identifier': 'servicio_suma', 'dependencies': OrderedDict()}
+[0.001395] (p2pkg) JobQueued: {'identifier': 'p2pkg', 'dependencies': OrderedDict([('interfaz', '/workspace/ros2_ws/install/interfaz')])}
+[0.001472] (primer_paquete) JobQueued: {'identifier': 'primer_paquete', 'dependencies': OrderedDict([('interfaz', '/workspace/ros2_ws/install/interfaz')])}
+[0.001512] (interfaz) JobStarted: {'identifier': 'interfaz'}
+[0.009414] (interfaz_servicio_suma) JobStarted: {'identifier': 'interfaz_servicio_suma'}
+[0.013610] (mi_accion) JobStarted: {'identifier': 'mi_accion'}
+[0.019449] (service_temp) JobStarted: {'identifier': 'service_temp'}
+[0.025112] (servicio_suma) JobStarted: {'identifier': 'servicio_suma'}
+[0.033917] (interfaz) JobProgress: {'identifier': 'interfaz', 'progress': 'cmake'}
+[0.034542] (interfaz) JobProgress: {'identifier': 'interfaz', 'progress': 'build'}
+[0.035215] (interfaz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/interfaz', '--', '-j8', '-l8'], 'cwd': '/workspace/ros2_ws/build/interfaz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'david'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/davidetsm-docker'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/ros2_ws/build/interfaz'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages:/workspace/ros2_ws/install/interfaz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble')]), 'shell': False}
+[0.037580] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'cmake'}
+[0.038117] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'build'}
+[0.038455] (interfaz_servicio_suma) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/interfaz_servicio_suma', '--', '-j8', '-l8'], 'cwd': '/workspace/ros2_ws/build/interfaz_servicio_suma', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'david'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/davidetsm-docker'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/ros2_ws/build/interfaz_servicio_suma'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/workspace/ros2_ws/install/service_temp/lib/python3.10/site-packages:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages:/workspace/ros2_ws/install/interfaz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble')]), 'shell': False}
+[0.100434] (-) TimerEvent: {}
+[0.200813] (-) TimerEvent: {}
+[0.301148] (-) TimerEvent: {}
+[0.401467] (-) TimerEvent: {}
+[0.501798] (-) TimerEvent: {}
+[0.602117] (-) TimerEvent: {}
+[0.682704] (service_temp) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.685017] (service_temp) JobEnded: {'identifier': 'service_temp', 'rc': 1}
+[0.685481] (interfaz) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.685628] (interfaz) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.685737] (interfaz) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.685818] (interfaz) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.685934] (interfaz) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.686026] (interfaz) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.686118] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.686218] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686314] (interfaz) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.686413] (interfaz) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.686513] (interfaz_servicio_suma) StdoutLine: {'line': b'[  3%] Built target interfaz_servicio_suma__cpp\n'}
+[0.686652] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 12%] Built target interfaz_servicio_suma__rosidl_generator_c\n'}
+[0.686755] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaz_servicio_suma\n'}
+[0.686845] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 32%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c\n'}
+[0.686939] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 32%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c\n'}
+[0.687020] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 41%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp\n'}
+[0.687114] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 51%] Built target interfaz_servicio_suma__rosidl_typesupport_c\n'}
+[0.687203] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp\n'}
+[0.687293] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp\n'}
+[0.687373] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma\n'}
+[0.687469] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 74%] Built target interfaz_servicio_suma__py\n'}
+[0.687560] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 80%] Built target interfaz_servicio_suma__rosidl_generator_py\n'}
+[0.687659] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 87%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.687767] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 93%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext\n'}
+[0.687869] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext\n'}
+[0.687964] (interfaz_servicio_suma) StdoutLine: {'line': b'running egg_info\n'}
+[0.688049] (interfaz_servicio_suma) StdoutLine: {'line': b'writing interfaz_servicio_suma.egg-info/PKG-INFO\n'}
+[0.688129] (interfaz_servicio_suma) StdoutLine: {'line': b'writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt\n'}
+[0.688210] (interfaz_servicio_suma) StdoutLine: {'line': b'writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt\n'}
+[0.688292] (interfaz_servicio_suma) StdoutLine: {'line': b"reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[0.688374] (interfaz_servicio_suma) StdoutLine: {'line': b"writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[0.688453] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg\n'}
+[0.688541] (mi_accion) JobEnded: {'identifier': 'mi_accion', 'rc': 'SIGINT'}
+[0.688950] (servicio_suma) JobEnded: {'identifier': 'servicio_suma', 'rc': 'SIGINT'}
+[0.689259] (interfaz_servicio_suma) JobEnded: {'identifier': 'interfaz_servicio_suma', 'rc': 'SIGINT'}
+[0.702230] (-) TimerEvent: {}
+[0.802597] (-) TimerEvent: {}
+[0.802941] (interfaz) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.902725] (-) TimerEvent: {}
+[1.003052] (-) TimerEvent: {}
+[1.103314] (-) TimerEvent: {}
+[1.203564] (-) TimerEvent: {}
+[1.233094] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.303680] (-) TimerEvent: {}
+[1.399936] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.403799] (-) TimerEvent: {}
+[1.424707] (interfaz) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.449288] (interfaz) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.449431] (interfaz) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.449497] (interfaz) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.501132] (interfaz) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.503250] (interfaz) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.503887] (-) TimerEvent: {}
+[1.509623] (interfaz) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.556190] (interfaz) StdoutLine: {'line': b'-- Generating done\n'}
+[1.569815] (interfaz) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/interfaz\n'}
+[1.593472] (interfaz) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.603569] (interfaz) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.603951] (-) TimerEvent: {}
+[1.613855] (interfaz) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_interfaz\n'}
+[1.704060] (-) TimerEvent: {}
+[1.804378] (-) TimerEvent: {}
+[1.879929] (interfaz) StdoutLine: {'line': b'running egg_info\n'}
+[1.880764] (interfaz) StdoutLine: {'line': b'writing interfaz.egg-info/PKG-INFO\n'}
+[1.880997] (interfaz) StdoutLine: {'line': b'writing dependency_links to interfaz.egg-info/dependency_links.txt\n'}
+[1.881196] (interfaz) StdoutLine: {'line': b'writing top-level names to interfaz.egg-info/top_level.txt\n'}
+[1.883385] (interfaz) StdoutLine: {'line': b"reading manifest file 'interfaz.egg-info/SOURCES.txt'\n"}
+[1.884027] (interfaz) StdoutLine: {'line': b"writing manifest file 'interfaz.egg-info/SOURCES.txt'\n"}
+[1.904492] (-) TimerEvent: {}
+[1.909961] (interfaz) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_interfaz_egg\n'}
+[2.004656] (-) TimerEvent: {}
+[2.104934] (-) TimerEvent: {}
+[2.205253] (-) TimerEvent: {}
+[2.305565] (-) TimerEvent: {}
+[2.405934] (-) TimerEvent: {}
+[2.488641] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_generator_c\x1b[0m\n'}
+[2.491571] (interfaz) StdoutLine: {'line': b'[  3%] Built target interfaz__cpp\n'}
+[2.504372] (interfaz) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/p2pkg_mensaje__functions.c.o\x1b[0m\n'}
+[2.504603] (interfaz) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[2.504716] (interfaz) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.c.o\x1b[0m\n'}
+[2.504807] (interfaz) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.504928] (interfaz) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.505028] (interfaz) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/srv/detail/convert_temp__functions.c.o\x1b[0m\n'}
+[2.505115] (interfaz) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.505210] (interfaz) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_c.dir/rosidl_generator_c/interfaz/msg/detail/mi_mensaje__functions.c.o\x1b[0m\n'}
+[2.506577] (-) TimerEvent: {}
+[2.606924] (-) TimerEvent: {}
+[2.665074] (interfaz) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libinterfaz__rosidl_generator_c.so\x1b[0m\n'}
+[2.702824] (interfaz) StdoutLine: {'line': b'[ 17%] Built target interfaz__rosidl_generator_c\n'}
+[2.706942] (-) TimerEvent: {}
+[2.717270] (interfaz) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.717493] (interfaz) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.717604] (interfaz) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.807044] (-) TimerEvent: {}
+[2.907357] (-) TimerEvent: {}
+[3.007676] (-) TimerEvent: {}
+[3.107964] (-) TimerEvent: {}
+[3.188864] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.207219] (interfaz) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz/msg/detail/mi_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.207437] (interfaz) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.208671] (interfaz) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz/msg/detail/p2pkg_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.208868] (-) TimerEvent: {}
+[3.309538] (-) TimerEvent: {}
+[3.409865] (-) TimerEvent: {}
+[3.418248] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.469180] (interfaz) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz/msg/mi_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.510955] (-) TimerEvent: {}
+[3.611270] (-) TimerEvent: {}
+[3.619613] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_c\x1b[0m\n'}
+[3.650795] (interfaz) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/mi_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.700967] (interfaz) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/msg/p2pkg_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.712976] (-) TimerEvent: {}
+[3.752996] (interfaz) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.813100] (-) TimerEvent: {}
+[3.834858] (interfaz) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz/action/detail/ej_fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.835968] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.842824] (interfaz) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/action/ej_fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.857951] (interfaz) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz/msg/detail/mi_mensaje__type_support_c.cpp.o\x1b[0m\n'}
+[3.858876] (interfaz) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaz/srv/detail/convert_temp__type_support.cpp.o\x1b[0m\n'}
+[3.908129] (interfaz) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz/msg/p2pkg_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.913197] (-) TimerEvent: {}
+[3.914545] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.920851] (interfaz) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaz/srv/convert_temp__type_support.cpp.o\x1b[0m\n'}
+[3.945713] (interfaz) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz/msg/detail/dds_fastrtps/mi_mensaje__type_support.cpp.o\x1b[0m\n'}
+[3.966699] (interfaz) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.013979] (-) TimerEvent: {}
+[4.030175] (interfaz) StdoutLine: {'line': b'[ 46%] Built target interfaz__rosidl_typesupport_c\n'}
+[4.042659] (interfaz) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.056964] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.076117] (interfaz) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz/msg/detail/mi_mensaje__type_support.c.o\x1b[0m\n'}
+[4.114096] (-) TimerEvent: {}
+[4.130313] (interfaz) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz/msg/detail/p2pkg_mensaje__type_support.c.o\x1b[0m\n'}
+[4.214209] (-) TimerEvent: {}
+[4.276385] (interfaz) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[4.314335] (-) TimerEvent: {}
+[4.385279] (interfaz) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz/msg/detail/dds_fastrtps/p2pkg_mensaje__type_support.cpp.o\x1b[0m\n'}
+[4.401689] (interfaz) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz/action/detail/ej_fibonacci__type_support.c.o\x1b[0m\n'}
+[4.414454] (-) TimerEvent: {}
+[4.455425] (interfaz) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaz/srv/detail/convert_temp__type_support.c.o\x1b[0m\n'}
+[4.471022] (interfaz) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz/msg/detail/p2pkg_mensaje__type_support_c.cpp.o\x1b[0m\n'}
+[4.510226] (interfaz) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz/action/ej_fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.514570] (-) TimerEvent: {}
+[4.611071] (interfaz) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libinterfaz__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.614698] (-) TimerEvent: {}
+[4.658401] (interfaz) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaz/srv/convert_temp__type_support.cpp.o\x1b[0m\n'}
+[4.667082] (interfaz) StdoutLine: {'line': b'[ 63%] Built target interfaz__rosidl_typesupport_introspection_c\n'}
+[4.680355] (interfaz) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[4.690524] (interfaz) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz/action/detail/ej_fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[4.714826] (-) TimerEvent: {}
+[4.817118] (-) TimerEvent: {}
+[4.885004] (interfaz) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.917251] (-) TimerEvent: {}
+[5.017987] (-) TimerEvent: {}
+[5.022053] (interfaz) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz/action/detail/dds_fastrtps/ej_fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.027649] (interfaz) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.113414] (interfaz) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaz/srv/detail/convert_temp__type_support_c.cpp.o\x1b[0m\n'}
+[5.118107] (-) TimerEvent: {}
+[5.145182] (interfaz) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaz/srv/detail/dds_fastrtps/convert_temp__type_support.cpp.o\x1b[0m\n'}
+[5.207926] (interfaz) StdoutLine: {'line': b'[ 74%] Built target interfaz__rosidl_typesupport_introspection_cpp\n'}
+[5.218218] (-) TimerEvent: {}
+[5.318599] (-) TimerEvent: {}
+[5.324596] (interfaz) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.371348] (interfaz) StdoutLine: {'line': b'[ 76%] Built target interfaz__rosidl_typesupport_cpp\n'}
+[5.418748] (-) TimerEvent: {}
+[5.519052] (-) TimerEvent: {}
+[5.599646] (interfaz) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.619167] (-) TimerEvent: {}
+[5.688438] (interfaz) StdoutLine: {'line': b'[ 77%] Built target interfaz__rosidl_typesupport_fastrtps_c\n'}
+[5.719275] (-) TimerEvent: {}
+[5.740886] (interfaz) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaz__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.819393] (-) TimerEvent: {}
+[5.825822] (interfaz) StdoutLine: {'line': b'[ 79%] Built target interfaz__rosidl_typesupport_fastrtps_cpp\n'}
+[5.844847] (interfaz) StdoutLine: {'line': b'[ 79%] Built target interfaz\n'}
+[5.874665] (interfaz) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.919529] (-) TimerEvent: {}
+[6.019817] (-) TimerEvent: {}
+[6.120232] (-) TimerEvent: {}
+[6.220509] (-) TimerEvent: {}
+[6.320806] (-) TimerEvent: {}
+[6.421148] (-) TimerEvent: {}
+[6.521435] (-) TimerEvent: {}
+[6.621735] (-) TimerEvent: {}
+[6.721963] (-) TimerEvent: {}
+[6.822306] (-) TimerEvent: {}
+[6.922585] (-) TimerEvent: {}
+[7.022840] (-) TimerEvent: {}
+[7.123100] (-) TimerEvent: {}
+[7.224263] (-) TimerEvent: {}
+[7.286163] (interfaz) StdoutLine: {'line': b'[ 80%] Built target interfaz__py\n'}
+[7.296465] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_generator_py\x1b[0m\n'}
+[7.310327] (interfaz) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_py.dir/rosidl_generator_py/interfaz/msg/_p2pkg_mensaje_s.c.o\x1b[0m\n'}
+[7.310555] (interfaz) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_py.dir/rosidl_generator_py/interfaz/msg/_mi_mensaje_s.c.o\x1b[0m\n'}
+[7.310663] (interfaz) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_py.dir/rosidl_generator_py/interfaz/action/_ej_fibonacci_s.c.o\x1b[0m\n'}
+[7.312385] (interfaz) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_py.dir/rosidl_generator_py/interfaz/action/_fibonacci_s.c.o\x1b[0m\n'}
+[7.313782] (interfaz) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_generator_py.dir/rosidl_generator_py/interfaz/srv/_convert_temp_s.c.o\x1b[0m\n'}
+[7.324389] (-) TimerEvent: {}
+[7.424759] (-) TimerEvent: {}
+[7.503269] (interfaz) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz/libinterfaz__rosidl_generator_py.so\x1b[0m\n'}
+[7.524904] (-) TimerEvent: {}
+[7.546567] (interfaz) StdoutLine: {'line': b'[ 90%] Built target interfaz__rosidl_generator_py\n'}
+[7.556097] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.556267] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.556366] (interfaz) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target interfaz__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.568410] (interfaz) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.568602] (interfaz) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.568705] (interfaz) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/interfaz__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaz/_interfaz_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.625020] (-) TimerEvent: {}
+[7.719118] (interfaz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz/interfaz_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.719337] (interfaz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz/interfaz_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.719447] (interfaz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaz/interfaz_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.725123] (-) TimerEvent: {}
+[7.762670] (interfaz) StdoutLine: {'line': b'[100%] Built target interfaz__rosidl_typesupport_c__pyext\n'}
+[7.762862] (interfaz) StdoutLine: {'line': b'[100%] Built target interfaz__rosidl_typesupport_introspection_c__pyext\n'}
+[7.762990] (interfaz) StdoutLine: {'line': b'[100%] Built target interfaz__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.772881] (interfaz) JobEnded: {'identifier': 'interfaz', 'rc': 'SIGINT'}
+[7.783758] (p2pkg) JobSkipped: {'identifier': 'p2pkg'}
+[7.783828] (primer_paquete) JobSkipped: {'identifier': 'primer_paquete'}
+[7.783857] (-) EventReactorShutdown: {}

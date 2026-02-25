@@ -1,0 +1,6 @@
+{
+  "package_name": "interfaz",
+  "non_idl_tuples": [
+    "/workspace/ros2_ws/src/interfaz:msg/MiMensaje.msg"
+  ]
+}

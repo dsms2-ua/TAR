@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaz/action/Battery.action
+// generated code does not contain a copyright notice
+
+
+module interfaz {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Battery_Goal {
+      int32 target_percentage;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Battery_Result {
+      string warning;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Battery_Feedback {
+      int32 current_percentage;
+    };
+  };
+};

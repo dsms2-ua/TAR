@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/workspace/ros2_ws/src/build/interfaz': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j8 -l8
+[0.032s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.207s] -- Added test 'lint_cmake' to check CMake code style
+[0.208s] -- Added test 'xmllint' to check XML markup files
+[0.209s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.233s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.241s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.249s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.279s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.285s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[0.286s]   rosidl_generate_interfaces() must be called before ament_package()
+[0.286s] Call Stack (most recent call first):
+[0.286s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[0.286s] 
+[0.286s] [0m
+[0.286s] -- Configuring incomplete, errors occurred!
+[0.286s] See also "/workspace/ros2_ws/src/build/interfaz/CMakeFiles/CMakeOutput.log".
+[0.290s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.292s] Invoked command in '/workspace/ros2_ws/src/build/interfaz' returned '2': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/servicio_suma:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/src/build/interfaz -- -j8 -l8

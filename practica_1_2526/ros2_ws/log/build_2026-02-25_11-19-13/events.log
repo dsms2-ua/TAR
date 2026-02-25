@@ -1,0 +1,77 @@
+[0.000000] (-) TimerEvent: {}
+[0.000421] (interfaz) JobQueued: {'identifier': 'interfaz', 'dependencies': OrderedDict()}
+[0.000584] (interfaz_servicio_suma) JobQueued: {'identifier': 'interfaz_servicio_suma', 'dependencies': OrderedDict()}
+[0.000718] (mi_accion) JobQueued: {'identifier': 'mi_accion', 'dependencies': OrderedDict()}
+[0.000748] (servicio_suma) JobQueued: {'identifier': 'servicio_suma', 'dependencies': OrderedDict()}
+[0.000763] (p2pkg) JobQueued: {'identifier': 'p2pkg', 'dependencies': OrderedDict([('interfaz', '/workspace/ros2_ws/install/interfaz')])}
+[0.000780] (primer_paquete) JobQueued: {'identifier': 'primer_paquete', 'dependencies': OrderedDict([('interfaz', '/workspace/ros2_ws/install/interfaz')])}
+[0.000796] (interfaz) JobStarted: {'identifier': 'interfaz'}
+[0.008467] (interfaz_servicio_suma) JobStarted: {'identifier': 'interfaz_servicio_suma'}
+[0.012742] (mi_accion) JobStarted: {'identifier': 'mi_accion'}
+[0.018477] (servicio_suma) JobStarted: {'identifier': 'servicio_suma'}
+[0.025407] (interfaz) JobProgress: {'identifier': 'interfaz', 'progress': 'cmake'}
+[0.026160] (interfaz) JobProgress: {'identifier': 'interfaz', 'progress': 'build'}
+[0.026745] (interfaz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/interfaz', '--', '-j8', '-l8'], 'cwd': '/workspace/ros2_ws/build/interfaz', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'david'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/davidetsm-docker'), ('OLDPWD', '/workspace/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/ros2_ws/build/interfaz'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages:/workspace/ros2_ws/install/interfaz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble')]), 'shell': False}
+[0.028934] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'cmake'}
+[0.029439] (interfaz_servicio_suma) JobProgress: {'identifier': 'interfaz_servicio_suma', 'progress': 'build'}
+[0.029659] (interfaz_servicio_suma) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/interfaz_servicio_suma', '--', '-j8', '-l8'], 'cwd': '/workspace/ros2_ws/build/interfaz_servicio_suma', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'david'), ('LIBGL_DEBUG', 'verbose'), ('SHLVL', '2'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/workspace/ros2_ws/install/interfaz/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/davidetsm-docker'), ('OLDPWD', '/workspace/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/workspace/ros2_ws/build/interfaz_servicio_suma'), ('PYTHONPATH', '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:/workspace/ros2_ws/install/interfaz_servicio_suma/local/lib/python3.10/dist-packages:/workspace/ros2_ws/install/interfaz/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Europe/Madrid'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/ros2_ws/install/interfaz_servicio_suma:/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble')]), 'shell': False}
+[0.099658] (-) TimerEvent: {}
+[0.200017] (-) TimerEvent: {}
+[0.300375] (-) TimerEvent: {}
+[0.328243] (interfaz) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.328885] (interfaz) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.329246] (interfaz) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.329564] (interfaz) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.329645] (interfaz_servicio_suma) StdoutLine: {'line': b'[  3%] Built target interfaz_servicio_suma__cpp\n'}
+[0.329776] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 12%] Built target interfaz_servicio_suma__rosidl_generator_c\n'}
+[0.329954] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_interfaz_servicio_suma\n'}
+[0.330419] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 22%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp\n'}
+[0.330539] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 41%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp\n'}
+[0.330636] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 41%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp\n'}
+[0.330720] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 51%] Built target interfaz_servicio_suma__rosidl_typesupport_c\n'}
+[0.330804] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c\n'}
+[0.330886] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c\n'}
+[0.330983] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 70%] Built target interfaz_servicio_suma\n'}
+[0.331075] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 74%] Built target interfaz_servicio_suma__py\n'}
+[0.331171] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 80%] Built target interfaz_servicio_suma__rosidl_generator_py\n'}
+[0.331262] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 87%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext\n'}
+[0.331355] (interfaz_servicio_suma) StdoutLine: {'line': b'[ 93%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext\n'}
+[0.331447] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.331539] (interfaz) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.336308] (interfaz) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.347669] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.364081] (interfaz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.386356] (interfaz_servicio_suma) StdoutLine: {'line': b'running egg_info\n'}
+[0.387069] (interfaz_servicio_suma) StdoutLine: {'line': b'writing interfaz_servicio_suma.egg-info/PKG-INFO\n'}
+[0.387317] (interfaz_servicio_suma) StdoutLine: {'line': b'writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt\n'}
+[0.387475] (interfaz_servicio_suma) StdoutLine: {'line': b'writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt\n'}
+[0.389696] (interfaz_servicio_suma) StdoutLine: {'line': b"reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[0.390283] (interfaz_servicio_suma) StdoutLine: {'line': b"writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'\n"}
+[0.393650] (interfaz) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.400496] (-) TimerEvent: {}
+[0.401643] (interfaz) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.416110] (interfaz) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[0.416375] (interfaz) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'action/ejFibonacci.action'\n"}
+[0.416504] (interfaz) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[0.416608] (interfaz) StderrLine: {'line': b"  '/workspace/ros2_ws/src/interfaz'\n"}
+[0.416703] (interfaz) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.416788] (interfaz) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[0.416869] (interfaz) StderrLine: {'line': b'\n'}
+[0.416940] (interfaz) StderrLine: {'line': b'\x1b[0m\n'}
+[0.417075] (interfaz) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.417171] (interfaz) StdoutLine: {'line': b'See also "/workspace/ros2_ws/build/interfaz/CMakeFiles/CMakeOutput.log".\n'}
+[0.420394] (interfaz) StderrLine: {'line': b'gmake: *** [Makefile:1179: cmake_check_build_system] Error 1\n'}
+[0.422214] (interfaz_servicio_suma) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg\n'}
+[0.500648] (-) TimerEvent: {}
+[0.599237] (interfaz) CommandEnded: {'returncode': 2}
+[0.600656] (-) TimerEvent: {}
+[0.614090] (interfaz) JobEnded: {'identifier': 'interfaz', 'rc': 2}
+[0.614630] (interfaz_servicio_suma) JobEnded: {'identifier': 'interfaz_servicio_suma', 'rc': 'SIGINT'}
+[0.615008] (servicio_suma) JobEnded: {'identifier': 'servicio_suma', 'rc': 'SIGINT'}
+[0.700834] (-) TimerEvent: {}
+[0.801138] (-) TimerEvent: {}
+[0.901478] (-) TimerEvent: {}
+[0.940436] (mi_accion) JobEnded: {'identifier': 'mi_accion', 'rc': 'SIGINT'}
+[0.951064] (p2pkg) JobSkipped: {'identifier': 'p2pkg'}
+[0.951183] (primer_paquete) JobSkipped: {'identifier': 'primer_paquete'}
+[0.951238] (-) EventReactorShutdown: {}

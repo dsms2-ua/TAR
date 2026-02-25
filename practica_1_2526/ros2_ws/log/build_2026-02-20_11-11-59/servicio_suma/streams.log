@@ -1,0 +1,22 @@
+[0.747s] Invoking command in '/workspace/ros2_ws/src/servicio_suma': PYTHONPATH=/workspace/ros2_ws/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicio_suma build --build-base /workspace/ros2_ws/build/servicio_suma/build install --record /workspace/ros2_ws/build/servicio_suma/install.log --single-version-externally-managed install_data
+[1.033s] running egg_info
+[1.034s] writing ../../build/servicio_suma/servicio_suma.egg-info/PKG-INFO
+[1.035s] writing dependency_links to ../../build/servicio_suma/servicio_suma.egg-info/dependency_links.txt
+[1.035s] writing entry points to ../../build/servicio_suma/servicio_suma.egg-info/entry_points.txt
+[1.035s] writing requirements to ../../build/servicio_suma/servicio_suma.egg-info/requires.txt
+[1.035s] writing top-level names to ../../build/servicio_suma/servicio_suma.egg-info/top_level.txt
+[1.038s] reading manifest file '../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'
+[1.038s] adding license file 'LICENSE'
+[1.039s] writing manifest file '../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'
+[1.040s] running build
+[1.040s] running build_py
+[1.040s] running install
+[1.041s] running install_lib
+[1.043s] running install_data
+[1.043s] running install_egg_info
+[1.047s] removing '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma-0.0.0-py3.10.egg-info' (and everything under it)
+[1.048s] Copying ../../build/servicio_suma/servicio_suma.egg-info to /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma-0.0.0-py3.10.egg-info
+[1.049s] running install_scripts
+[1.075s] Installing client script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+[1.075s] Installing server script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+[1.075s] writing list of installed files to '/workspace/ros2_ws/build/servicio_suma/install.log'

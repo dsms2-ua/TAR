@@ -1,0 +1,4 @@
+[console_scripts]
+client = p2pkg.nodosub_ejercicio2:main
+server = p2pkg.nodopub_ejercicio2:main
+

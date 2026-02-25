@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/primer_paquete/primer_paquete.egg-info
+writing ../build/primer_paquete/primer_paquete.egg-info/PKG-INFO
+writing dependency_links to ../build/primer_paquete/primer_paquete.egg-info/dependency_links.txt
+writing entry points to ../build/primer_paquete/primer_paquete.egg-info/entry_points.txt
+writing requirements to ../build/primer_paquete/primer_paquete.egg-info/requires.txt
+writing top-level names to ../build/primer_paquete/primer_paquete.egg-info/top_level.txt
+writing manifest file '../build/primer_paquete/primer_paquete.egg-info/SOURCES.txt'
+reading manifest file '../build/primer_paquete/primer_paquete.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/primer_paquete/primer_paquete.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_ws/build/primer_paquete/build
+creating /workspace/ros2_ws/build/primer_paquete/build/lib
+creating /workspace/ros2_ws/build/primer_paquete/build/lib/primer_paquete
+copying primer_paquete/__init__.py -> /workspace/ros2_ws/build/primer_paquete/build/lib/primer_paquete
+running install
+running install_lib
+creating /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete
+copying /workspace/ros2_ws/build/primer_paquete/build/lib/primer_paquete/__init__.py -> /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete
+byte-compiling /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+copying resource/primer_paquete -> /workspace/ros2_ws/install/primer_paquete/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/ros2_ws/install/primer_paquete/share/primer_paquete
+running install_egg_info
+Copying ../build/primer_paquete/primer_paquete.egg-info to /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/ros2_ws/build/primer_paquete/install.log'

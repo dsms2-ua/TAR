@@ -1,0 +1,6 @@
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:msg/MiMensaje.idl
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:msg/P2pkgMensaje.idl
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:action/Fibonacci.idl
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:action/EjFibonacci.idl
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:action/Battery.idl
+/workspace/ros2_ws/build/interfaz/rosidl_adapter/interfaz:srv/ConvertTemp.idl

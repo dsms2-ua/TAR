@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaz/srv/ConvertTemp.srv
+// generated code does not contain a copyright notice
+
+
+module interfaz {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct ConvertTemp_Request {
+      double input_temp;
+
+      @verbatim (language="comment", text=
+        "Cel_to_Far o Far_to_Cel")
+      string conversion_type;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct ConvertTemp_Response {
+      double converted_temp;
+    };
+  };
+};

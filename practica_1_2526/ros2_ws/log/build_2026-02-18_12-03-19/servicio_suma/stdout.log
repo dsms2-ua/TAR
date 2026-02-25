@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/servicio_suma/servicio_suma.egg-info/PKG-INFO
+writing dependency_links to ../../build/servicio_suma/servicio_suma.egg-info/dependency_links.txt
+writing entry points to ../../build/servicio_suma/servicio_suma.egg-info/entry_points.txt
+writing requirements to ../../build/servicio_suma/servicio_suma.egg-info/requires.txt
+writing top-level names to ../../build/servicio_suma/servicio_suma.egg-info/top_level.txt
+reading manifest file '../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/servicio_suma/servicio_suma.egg-info/SOURCES.txt'
+running build
+running build_py
+copying servicio_suma/add_two_ints_client.py -> /workspace/ros2_ws/build/servicio_suma/build/lib/servicio_suma
+running install
+running install_lib
+copying /workspace/ros2_ws/build/servicio_suma/build/lib/servicio_suma/add_two_ints_client.py -> /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma
+byte-compiling /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/servicio_suma/servicio_suma.egg-info to /workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages/servicio_suma-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+Installing server script to /workspace/ros2_ws/install/servicio_suma/lib/servicio_suma
+writing list of installed files to '/workspace/ros2_ws/build/servicio_suma/install.log'

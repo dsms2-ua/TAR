@@ -1,0 +1,382 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ce5cd0b5d80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ce5cd23ed10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ce5cd23ed10>>, mixin_verb=('build',))
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspace/ros2_ws'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaz' with type 'ros.ament_cmake' and name 'interfaz'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaz_servicio_suma) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaz_servicio_suma' with type 'ros.ament_cmake' and name 'interfaz_servicio_suma'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/p2pkg) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/p2pkg' with type 'ros.ament_python' and name 'p2pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/primer_paquete) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/primer_paquete' with type 'ros.ament_python' and name 'primer_paquete'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/servicio_suma) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servicio_suma' with type 'ros.ament_python' and name 'servicio_suma'
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /workspace/ros2_ws/install
+[0.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/humble
+[0.364s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'interfaz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/interfaz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/interfaz', 'merge_install': False, 'path': '/workspace/ros2_ws/src/interfaz', 'symlink_install': False, 'test_result_base': None}
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_target' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_clean_cache' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'interfaz_servicio_suma' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'interfaz_servicio_suma' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/interfaz_servicio_suma', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/interfaz_servicio_suma', 'merge_install': False, 'path': '/workspace/ros2_ws/src/interfaz_servicio_suma', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'catkin_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'servicio_suma' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.413s] DEBUG:colcon.colcon_core.verb:Building package 'servicio_suma' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/servicio_suma', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/servicio_suma', 'merge_install': False, 'path': '/workspace/ros2_ws/src/servicio_suma', 'symlink_install': False, 'test_result_base': None}
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_target' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.413s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'p2pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'p2pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/p2pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/p2pkg', 'merge_install': False, 'path': '/workspace/ros2_ws/src/p2pkg', 'symlink_install': False, 'test_result_base': None}
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_target' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_clean_cache' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_clean_first' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'cmake_force_configure' from command line to 'False'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'ament_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'catkin_cmake_args' from command line to 'None'
+[0.414s] Level 5:colcon.colcon_core.verb:set package 'primer_paquete' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.414s] DEBUG:colcon.colcon_core.verb:Building package 'primer_paquete' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/ros2_ws/build/primer_paquete', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/ros2_ws/install/primer_paquete', 'merge_install': False, 'path': '/workspace/ros2_ws/src/primer_paquete', 'symlink_install': False, 'test_result_base': None}
+[0.414s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.416s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/interfaz' with build type 'ament_cmake'
+[0.416s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/interfaz'
+[0.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.426s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspace/ros2_ws/src/interfaz_servicio_suma' with build type 'ament_cmake'
+[0.426s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspace/ros2_ws/src/interfaz_servicio_suma'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/ros2_ws/src/servicio_suma' with build type 'ament_python'
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('servicio_suma', 'ament_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/ament_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/ament_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/ament_prefix_path.sh'
+[0.434s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.434s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/interfaz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz -- -j8 -l8
+[0.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz_servicio_suma -- -j8 -l8
+[0.829s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/ros2_ws/src/servicio_suma'
+[0.829s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.829s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz_servicio_suma -- -j8 -l8
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz_servicio_suma
+[1.000s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaz_servicio_suma)
+[1.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/interfaz_servicio_suma' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz_servicio_suma
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma' for CMake module files
+[1.004s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma' for CMake config files
+[1.004s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz_servicio_suma', 'cmake_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.ps1'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.sh'
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib'
+[1.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz_servicio_suma', 'ld_library_path_lib')
+[1.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.dsv'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.sh'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/bin'
+[1.007s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib/pkgconfig/interfaz_servicio_suma.pc'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib/python3.10/site-packages'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/bin'
+[1.008s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.sh'
+[1.010s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.bash'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.zsh'
+[1.012s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/interfaz_servicio_suma/share/colcon-core/packages/interfaz_servicio_suma)
+[1.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaz_servicio_suma)
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma' for CMake module files
+[1.014s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma' for CMake config files
+[1.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz_servicio_suma', 'cmake_prefix_path')
+[1.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.ps1'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/cmake_prefix_path.sh'
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib'
+[1.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz_servicio_suma', 'ld_library_path_lib')
+[1.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/hook/ld_library_path_lib.sh'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/bin'
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib/pkgconfig/interfaz_servicio_suma.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/lib/python3.10/site-packages'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz_servicio_suma/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.sh'
+[1.022s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.bash'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz_servicio_suma/share/interfaz_servicio_suma/package.zsh'
+[1.023s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/interfaz_servicio_suma/share/colcon-core/packages/interfaz_servicio_suma)
+[1.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/src/servicio_suma': PYTHONPATH=/workspace/ros2_ws/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicio_suma build --build-base /workspace/ros2_ws/build/servicio_suma/build install --record /workspace/ros2_ws/build/servicio_suma/install.log --single-version-externally-managed install_data
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma' for CMake module files
+[1.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/src/servicio_suma' returned '0': PYTHONPATH=/workspace/ros2_ws/build/servicio_suma/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicio_suma build --build-base /workspace/ros2_ws/build/servicio_suma/build install --record /workspace/ros2_ws/build/servicio_suma/install.log --single-version-externally-managed install_data
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma' for CMake config files
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma/lib'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma/bin'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma/lib/pkgconfig/servicio_suma.pc'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma/lib/python3.10/site-packages'
+[1.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('servicio_suma', 'pythonpath')
+[1.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/pythonpath.ps1'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/pythonpath.dsv'
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/hook/pythonpath.sh'
+[1.627s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/servicio_suma/bin'
+[1.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servicio_suma)
+[1.628s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/package.ps1'
+[1.628s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/package.dsv'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/package.sh'
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/package.bash'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/servicio_suma/share/servicio_suma/package.zsh'
+[1.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/servicio_suma/share/colcon-core/packages/servicio_suma)
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/interfaz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz -- -j8 -l8
+[2.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/build/interfaz': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz
+[2.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaz)
+[2.680s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz' for CMake module files
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/build/interfaz' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/primer_paquete:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/interfaz
+[2.682s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz' for CMake config files
+[2.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz', 'cmake_prefix_path')
+[2.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.ps1'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.dsv'
+[2.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.sh'
+[2.687s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib'
+[2.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz', 'ld_library_path_lib')
+[2.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.ps1'
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.dsv'
+[2.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.sh'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/bin'
+[2.689s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib/pkgconfig/interfaz.pc'
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib/python3.10/site-packages'
+[2.690s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/bin'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.ps1'
+[2.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/package.dsv'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.sh'
+[2.692s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.bash'
+[2.693s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.zsh'
+[2.693s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/interfaz/share/colcon-core/packages/interfaz)
+[2.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaz)
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz' for CMake module files
+[2.695s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz' for CMake config files
+[2.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz', 'cmake_prefix_path')
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.ps1'
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.dsv'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/cmake_prefix_path.sh'
+[2.699s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib'
+[2.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaz', 'ld_library_path_lib')
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.ps1'
+[2.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.dsv'
+[2.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/interfaz/share/interfaz/hook/ld_library_path_lib.sh'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/bin'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib/pkgconfig/interfaz.pc'
+[2.701s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/lib/python3.10/site-packages'
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/interfaz/bin'
+[2.702s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.ps1'
+[2.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/interfaz/share/interfaz/package.dsv'
+[2.704s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.sh'
+[2.705s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.bash'
+[2.706s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/interfaz/share/interfaz/package.zsh'
+[2.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/interfaz/share/colcon-core/packages/interfaz)
+[2.708s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/ros2_ws/src/p2pkg' with build type 'ament_python'
+[2.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('p2pkg', 'ament_prefix_path')
+[2.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/ament_prefix_path.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/ament_prefix_path.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/ament_prefix_path.sh'
+[2.713s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.713s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.723s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspace/ros2_ws/src/primer_paquete' with build type 'ament_python'
+[2.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('primer_paquete', 'ament_prefix_path')
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/ament_prefix_path.ps1'
+[2.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/ament_prefix_path.dsv'
+[2.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/ament_prefix_path.sh'
+[2.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.050s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/ros2_ws/src/p2pkg'
+[3.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.353s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspace/ros2_ws/src/primer_paquete'
+[3.354s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/src/p2pkg': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2pkg build --build-base /workspace/ros2_ws/build/p2pkg/build install --record /workspace/ros2_ws/build/p2pkg/install.log --single-version-externally-managed install_data
+[3.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspace/ros2_ws/src/primer_paquete': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/primer_paquete build --build-base /workspace/ros2_ws/build/primer_paquete/build install --record /workspace/ros2_ws/build/primer_paquete/install.log --single-version-externally-managed install_data
+[4.130s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg' for CMake module files
+[4.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/src/p2pkg' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2pkg build --build-base /workspace/ros2_ws/build/p2pkg/build install --record /workspace/ros2_ws/build/p2pkg/install.log --single-version-externally-managed install_data
+[4.131s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg' for CMake config files
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg/lib'
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg/bin'
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg/lib/pkgconfig/p2pkg.pc'
+[4.132s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages'
+[4.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('p2pkg', 'pythonpath')
+[4.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/pythonpath.ps1'
+[4.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/pythonpath.dsv'
+[4.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/p2pkg/share/p2pkg/hook/pythonpath.sh'
+[4.135s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/p2pkg/bin'
+[4.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p2pkg)
+[4.135s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/p2pkg/share/p2pkg/package.ps1'
+[4.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/p2pkg/share/p2pkg/package.dsv'
+[4.136s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/p2pkg/share/p2pkg/package.sh'
+[4.137s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/p2pkg/share/p2pkg/package.bash'
+[4.137s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/p2pkg/share/p2pkg/package.zsh'
+[4.138s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/p2pkg/share/colcon-core/packages/p2pkg)
+[4.151s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete' for CMake module files
+[4.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspace/ros2_ws/src/primer_paquete' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/primer_paquete build --build-base /workspace/ros2_ws/build/primer_paquete/build install --record /workspace/ros2_ws/build/primer_paquete/install.log --single-version-externally-managed install_data
+[4.152s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete' for CMake config files
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete/lib'
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete/bin'
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete/lib/pkgconfig/primer_paquete.pc'
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages'
+[4.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('primer_paquete', 'pythonpath')
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/pythonpath.ps1'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/pythonpath.dsv'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/hook/pythonpath.sh'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/workspace/ros2_ws/install/primer_paquete/bin'
+[4.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(primer_paquete)
+[4.157s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/package.ps1'
+[4.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/package.dsv'
+[4.158s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/package.sh'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/package.bash'
+[4.159s] INFO:colcon.colcon_core.shell:Creating package script '/workspace/ros2_ws/install/primer_paquete/share/primer_paquete/package.zsh'
+[4.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspace/ros2_ws/install/primer_paquete/share/colcon-core/packages/primer_paquete)
+[4.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.160s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.167s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.167s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.170s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.170s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.ps1'
+[4.172s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_ps1.py'
+[4.174s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.ps1'
+[4.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.sh'
+[4.176s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspace/ros2_ws/install/_local_setup_util_sh.py'
+[4.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.sh'
+[4.179s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.bash'
+[4.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.bash'
+[4.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspace/ros2_ws/install/local_setup.zsh'
+[4.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspace/ros2_ws/install/setup.zsh'

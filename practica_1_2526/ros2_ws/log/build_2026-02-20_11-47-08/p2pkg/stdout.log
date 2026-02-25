@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/p2pkg/p2pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/p2pkg/p2pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/p2pkg/p2pkg.egg-info/entry_points.txt
+writing requirements to ../../build/p2pkg/p2pkg.egg-info/requires.txt
+writing top-level names to ../../build/p2pkg/p2pkg.egg-info/top_level.txt
+reading manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying p2pkg/nodopub_ejercicio2.py -> /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg
+running install
+running install_lib
+copying /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg/nodopub_ejercicio2.py -> /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg
+byte-compiling /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg/nodopub_ejercicio2.py to nodopub_ejercicio2.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/p2pkg/p2pkg.egg-info to /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+Installing server script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+writing list of installed files to '/workspace/ros2_ws/build/p2pkg/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+client = primer_paquete.nodo_recibe:main
+server = primer_paquete.nodo_envia:main
+

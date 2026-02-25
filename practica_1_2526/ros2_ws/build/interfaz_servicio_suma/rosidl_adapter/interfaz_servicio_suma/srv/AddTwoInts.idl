@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaz_servicio_suma/srv/AddTwoInts.srv
+// generated code does not contain a copyright notice
+
+
+module interfaz_servicio_suma {
+  module srv {
+    struct AddTwoInts_Request {
+      int64 a;
+
+      int64 b;
+
+      int64 c;
+
+      int64 d;
+
+      int64 e;
+    };
+    struct AddTwoInts_Response {
+      double result;
+    };
+  };
+};

@@ -1,0 +1,38 @@
+[1.392s] Invoking command in '/workspace/ros2_ws/src/mi_accion': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_accion build --build-base /workspace/ros2_ws/build/mi_accion/build install --record /workspace/ros2_ws/build/mi_accion/install.log --single-version-externally-managed install_data
+[1.633s] running egg_info
+[1.633s] creating ../../build/mi_accion/mi_accion.egg-info
+[1.633s] writing ../../build/mi_accion/mi_accion.egg-info/PKG-INFO
+[1.634s] writing dependency_links to ../../build/mi_accion/mi_accion.egg-info/dependency_links.txt
+[1.634s] writing entry points to ../../build/mi_accion/mi_accion.egg-info/entry_points.txt
+[1.634s] writing requirements to ../../build/mi_accion/mi_accion.egg-info/requires.txt
+[1.634s] writing top-level names to ../../build/mi_accion/mi_accion.egg-info/top_level.txt
+[1.634s] writing manifest file '../../build/mi_accion/mi_accion.egg-info/SOURCES.txt'
+[1.637s] reading manifest file '../../build/mi_accion/mi_accion.egg-info/SOURCES.txt'
+[1.637s] adding license file 'LICENSE'
+[1.638s] writing manifest file '../../build/mi_accion/mi_accion.egg-info/SOURCES.txt'
+[1.638s] running build
+[1.638s] running build_py
+[1.638s] creating /workspace/ros2_ws/build/mi_accion/build
+[1.638s] creating /workspace/ros2_ws/build/mi_accion/build/lib
+[1.638s] creating /workspace/ros2_ws/build/mi_accion/build/lib/mi_accion
+[1.638s] copying mi_accion/fibonacci_action_server.py -> /workspace/ros2_ws/build/mi_accion/build/lib/mi_accion
+[1.639s] copying mi_accion/__init__.py -> /workspace/ros2_ws/build/mi_accion/build/lib/mi_accion
+[1.639s] running install
+[1.639s] running install_lib
+[1.640s] creating /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion
+[1.641s] copying /workspace/ros2_ws/build/mi_accion/build/lib/mi_accion/fibonacci_action_server.py -> /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion
+[1.641s] copying /workspace/ros2_ws/build/mi_accion/build/lib/mi_accion/__init__.py -> /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion
+[1.641s] byte-compiling /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[1.642s] byte-compiling /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion/__init__.py to __init__.cpython-310.pyc
+[1.643s] running install_data
+[1.644s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index
+[1.644s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index
+[1.644s] creating /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index/packages
+[1.644s] copying resource/mi_accion -> /workspace/ros2_ws/install/mi_accion/share/ament_index/resource_index/packages
+[1.644s] copying package.xml -> /workspace/ros2_ws/install/mi_accion/share/mi_accion
+[1.644s] running install_egg_info
+[1.647s] Copying ../../build/mi_accion/mi_accion.egg-info to /workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages/mi_accion-0.0.0-py3.10.egg-info
+[1.648s] running install_scripts
+[1.667s] Installing server script to /workspace/ros2_ws/install/mi_accion/lib/mi_accion
+[1.668s] writing list of installed files to '/workspace/ros2_ws/build/mi_accion/install.log'
+[1.694s] Invoked command in '/workspace/ros2_ws/src/mi_accion' returned '0': PYTHONPATH=/workspace/ros2_ws/build/mi_accion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/mi_accion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_accion build --build-base /workspace/ros2_ws/build/mi_accion/build install --record /workspace/ros2_ws/build/mi_accion/install.log --single-version-externally-managed install_data

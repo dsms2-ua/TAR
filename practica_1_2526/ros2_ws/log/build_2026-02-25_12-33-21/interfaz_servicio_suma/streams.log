@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/workspace/ros2_ws/build/interfaz_servicio_suma': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/ros2_ws/install/servicio_suma:/workspace/ros2_ws/install/service_temp:/workspace/ros2_ws/install/primer_paquete:/workspace/ros2_ws/install/p2pkg:/workspace/ros2_ws/install/mi_accion:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/interfaz_servicio_suma -- -j8 -l8
+[0.646s] [  6%] Built target interfaz_servicio_suma__cpp
+[0.646s] [ 12%] Built target interfaz_servicio_suma__rosidl_generator_c
+[0.646s] [ 12%] Built target ament_cmake_python_copy_interfaz_servicio_suma
+[0.646s] [ 22%] Built target interfaz_servicio_suma__rosidl_typesupport_cpp
+[0.646s] [ 32%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c
+[0.646s] [ 41%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_cpp
+[0.646s] [ 51%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c
+[0.646s] [ 61%] Built target interfaz_servicio_suma__rosidl_typesupport_c
+[0.646s] [ 70%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_cpp
+[0.646s] [ 70%] Built target interfaz_servicio_suma
+[0.646s] [ 74%] Built target interfaz_servicio_suma__py
+[0.646s] [ 80%] Built target interfaz_servicio_suma__rosidl_generator_py
+[0.646s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_introspection_c__pyext
+[0.646s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_c__pyext
+[0.647s] [100%] Built target interfaz_servicio_suma__rosidl_typesupport_fastrtps_c__pyext
+[0.647s] running egg_info
+[0.647s] writing interfaz_servicio_suma.egg-info/PKG-INFO
+[0.647s] writing dependency_links to interfaz_servicio_suma.egg-info/dependency_links.txt
+[0.647s] writing top-level names to interfaz_servicio_suma.egg-info/top_level.txt
+[0.647s] reading manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[0.647s] writing manifest file 'interfaz_servicio_suma.egg-info/SOURCES.txt'
+[0.647s] [100%] Built target ament_cmake_python_build_interfaz_servicio_suma_egg

@@ -1,0 +1,6 @@
+[console_scripts]
+client = mi_accion.fibonacci_action_client:main
+ej_fibClient = mi_accion.ejercicio_fibClient:main
+ej_fibServer = mi_accion.ejercicio_fibServer:main
+server = mi_accion.fibonacci_action_server:main
+

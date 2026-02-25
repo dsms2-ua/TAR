@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/p2pkg/p2pkg.egg-info
+writing ../../build/p2pkg/p2pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/p2pkg/p2pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/p2pkg/p2pkg.egg-info/entry_points.txt
+writing requirements to ../../build/p2pkg/p2pkg.egg-info/requires.txt
+writing top-level names to ../../build/p2pkg/p2pkg.egg-info/top_level.txt
+writing manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/ros2_ws/build/p2pkg/build
+creating /workspace/ros2_ws/build/p2pkg/build/lib
+creating /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg
+copying p2pkg/__init__.py -> /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg
+copying p2pkg/nodopub_ejercicio2.py -> /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg
+copying p2pkg/nodosub_ejercicio2.py -> /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg
+running install
+running install_lib
+creating /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg
+copying /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg/__init__.py -> /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg
+copying /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg/nodopub_ejercicio2.py -> /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg
+copying /workspace/ros2_ws/build/p2pkg/build/lib/p2pkg/nodosub_ejercicio2.py -> /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg
+byte-compiling /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg/nodopub_ejercicio2.py to nodopub_ejercicio2.cpython-310.pyc
+byte-compiling /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg/nodosub_ejercicio2.py to nodosub_ejercicio2.cpython-310.pyc
+running install_data
+creating /workspace/ros2_ws/install/p2pkg/share/ament_index
+creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index
+creating /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+copying resource/p2pkg -> /workspace/ros2_ws/install/p2pkg/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/ros2_ws/install/p2pkg/share/p2pkg
+running install_egg_info
+Copying ../../build/p2pkg/p2pkg.egg-info to /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+Installing server script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+writing list of installed files to '/workspace/ros2_ws/build/p2pkg/install.log'
