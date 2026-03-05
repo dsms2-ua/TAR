@@ -1,0 +1,23 @@
+[3.784s] Invoking command in '/workspace/ros2_ws/src/battery_act': PYTHONPATH=/workspace/ros2_ws/build/battery_act/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_act build --build-base /workspace/ros2_ws/build/battery_act/build install --record /workspace/ros2_ws/build/battery_act/install.log --single-version-externally-managed install_data
+[4.418s] running egg_info
+[4.418s] writing ../../build/battery_act/battery_act.egg-info/PKG-INFO
+[4.419s] writing dependency_links to ../../build/battery_act/battery_act.egg-info/dependency_links.txt
+[4.420s] writing entry points to ../../build/battery_act/battery_act.egg-info/entry_points.txt
+[4.420s] writing requirements to ../../build/battery_act/battery_act.egg-info/requires.txt
+[4.421s] writing top-level names to ../../build/battery_act/battery_act.egg-info/top_level.txt
+[4.424s] reading manifest file '../../build/battery_act/battery_act.egg-info/SOURCES.txt'
+[4.426s] adding license file 'LICENSE'
+[4.427s] writing manifest file '../../build/battery_act/battery_act.egg-info/SOURCES.txt'
+[4.428s] running build
+[4.428s] running build_py
+[4.429s] running install
+[4.430s] running install_lib
+[4.433s] running install_data
+[4.443s] running install_egg_info
+[4.443s] removing '/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages/battery_act-0.0.0-py3.10.egg-info' (and everything under it)
+[4.443s] Copying ../../build/battery_act/battery_act.egg-info to /workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages/battery_act-0.0.0-py3.10.egg-info
+[4.449s] running install_scripts
+[4.478s] Installing client script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+[4.479s] Installing server script to /workspace/ros2_ws/install/battery_act/lib/battery_act
+[4.480s] writing list of installed files to '/workspace/ros2_ws/build/battery_act/install.log'
+[4.534s] Invoked command in '/workspace/ros2_ws/src/battery_act' returned '0': PYTHONPATH=/workspace/ros2_ws/build/battery_act/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/battery_act/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/battery_act build --build-base /workspace/ros2_ws/build/battery_act/build install --record /workspace/ros2_ws/build/battery_act/install.log --single-version-externally-managed install_data

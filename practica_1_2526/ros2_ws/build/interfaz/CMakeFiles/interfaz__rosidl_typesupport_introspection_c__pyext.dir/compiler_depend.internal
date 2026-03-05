@@ -266,4 +266,7 @@ CMakeFiles/interfaz__rosidl_typesupport_introspection_c__pyext.dir/rosidl_genera
  /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h
  /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h
  /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h
+ /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__type_support.h
+ /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__struct.h
+ /workspace/ros2_ws/build/interfaz/rosidl_generator_c/interfaz/action/detail/battery__functions.h
 

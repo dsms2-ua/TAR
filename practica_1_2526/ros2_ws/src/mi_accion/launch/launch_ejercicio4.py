@@ -8,7 +8,7 @@ def generate_launch_description():
     numero_argumento = DeclareLaunchArgument(
         'numero_argumento',
         default_value='7',
-        description='Número entero de entrada para Fibonacci'
+        description='Número entero para el campo numero'
     )
 
     # Definimos el nombre del grupo para luego añadirlo al namespace
@@ -16,21 +16,23 @@ def generate_launch_description():
 
     # Definimos el nodo publicador con el argumento
     nodo_publicador = Node(
-        package='mi_accion',
+        package='p2pkg',
         executable='server',
         namespace=nombre_grupo,
         name='publicador_ejercicio4',
         parameters=[{
             'numero': LaunchConfiguration('numero_argumento')
         }],
+        remappings=[('topic_ejercicio2', 'topic_ejercicio2')]
     )
 
     # Definimos el nodo suscriptor
     nodo_suscriptor = Node(
-        package='mi_accion',
+        package='p2pkg',
         executable='client',
         namespace=nombre_grupo,
         name='suscriptor_ejercicio4',
+        remappings=[('topic_ejercicio2', 'topic_ejercicio2')]
     )
 
     return LaunchDescription([

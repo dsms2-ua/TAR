@@ -13,10 +13,9 @@ class MinimalSubscriber(Node):
             'topic_ejercicio2',
             self.listener_callback,
             10)
-        self.subscription
 
     def listener_callback(self, msg):
-        self.get_logger().info(f"Recibido mensaje: numero={msg.numero} x={msg.posicion.orientation.x}, w={msg.posicion.orientation.w}, fecha={msg.fecha}")  
+        self.get_logger().info(f"Recibido mensaje: numero={msg.numero} x={msg.posicion.position.x}, w={msg.posicion.orientation.w}, fecha={msg.fecha}")  
 
 
 def main(args=None):

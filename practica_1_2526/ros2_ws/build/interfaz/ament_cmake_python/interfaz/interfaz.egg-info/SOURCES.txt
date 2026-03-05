@@ -5,6 +5,7 @@ interfaz.egg-info/SOURCES.txt
 interfaz.egg-info/dependency_links.txt
 interfaz.egg-info/top_level.txt
 interfaz/action/__init__.py
+interfaz/action/_battery.py
 interfaz/action/_ej_fibonacci.py
 interfaz/action/_fibonacci.py
 interfaz/msg/__init__.py

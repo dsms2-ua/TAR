@@ -1,0 +1,23 @@
+[2.698s] Invoking command in '/workspace/ros2_ws/src/primer_paquete': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/primer_paquete build --build-base /workspace/ros2_ws/build/primer_paquete/build install --record /workspace/ros2_ws/build/primer_paquete/install.log --single-version-externally-managed install_data
+[3.195s] running egg_info
+[3.196s] writing ../../build/primer_paquete/primer_paquete.egg-info/PKG-INFO
+[3.196s] writing dependency_links to ../../build/primer_paquete/primer_paquete.egg-info/dependency_links.txt
+[3.197s] writing entry points to ../../build/primer_paquete/primer_paquete.egg-info/entry_points.txt
+[3.197s] writing requirements to ../../build/primer_paquete/primer_paquete.egg-info/requires.txt
+[3.197s] writing top-level names to ../../build/primer_paquete/primer_paquete.egg-info/top_level.txt
+[3.200s] reading manifest file '../../build/primer_paquete/primer_paquete.egg-info/SOURCES.txt'
+[3.201s] adding license file 'LICENSE'
+[3.202s] writing manifest file '../../build/primer_paquete/primer_paquete.egg-info/SOURCES.txt'
+[3.203s] running build
+[3.203s] running build_py
+[3.203s] running install
+[3.204s] running install_lib
+[3.206s] running install_data
+[3.207s] running install_egg_info
+[3.210s] removing '/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete-0.0.0-py3.10.egg-info' (and everything under it)
+[3.211s] Copying ../../build/primer_paquete/primer_paquete.egg-info to /workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages/primer_paquete-0.0.0-py3.10.egg-info
+[3.213s] running install_scripts
+[3.246s] Installing client script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+[3.247s] Installing server script to /workspace/ros2_ws/install/primer_paquete/lib/primer_paquete
+[3.247s] writing list of installed files to '/workspace/ros2_ws/build/primer_paquete/install.log'
+[3.294s] Invoked command in '/workspace/ros2_ws/src/primer_paquete' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/primer_paquete/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/primer_paquete build --build-base /workspace/ros2_ws/build/primer_paquete/build install --record /workspace/ros2_ws/build/primer_paquete/install.log --single-version-externally-managed install_data

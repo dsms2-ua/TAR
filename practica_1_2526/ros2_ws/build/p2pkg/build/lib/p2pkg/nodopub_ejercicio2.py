@@ -10,30 +10,29 @@ class MinimalPublisher(Node):
 
     def __init__(self):
         super().__init__('nodopub_ejercicio2')
-        self.publisher_ = self.create_publisher(P2pkgMensaje, '/topic_ejercicio2', 10)
-        timer_period = 0.5
-        self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.numero = 0
         
-        now = datetime.now()
-        self.fecha = now.strftime('%d/%m/%Y')
+        self.declare_parameter('numero', 5)
+        
+        self.publisher_ = self.create_publisher(P2pkgMensaje, 'topic_ejercicio2', 10)
+        
+        timer_period = 1.0
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        
         self.posicion = Pose()
-        self.posicion.orientation.x = 0.0
-        self.posicion.orientation.w = 1.0
         
 
     def timer_callback(self):
-        msg = P2pkgMensaje()                                                
-        msg.numero = self.numero
-        msg.posicion.orientation.x = self.posicion.orientation.x
-        msg.posicion.orientation.w = self.posicion.orientation.w
-        msg.fecha = self.fecha                        
-        self.publisher_.publish(msg)
-        self.get_logger().info(f"Enviando mensaje: numero={msg.numero} x={msg.posicion.orientation.x}, w={msg.posicion.orientation.w}, fecha={msg.fecha}")       
+        msg = P2pkgMensaje()
+                                                        
+        msg.numero = self.get_parameter('numero').get_parameter_value().integer_value
         
-        self.posicion.orientation.x = random()
-        self.posicion.orientation.w = random()
-        self.numero += 1
+        msg.fecha = datetime.now().strftime('%d/%m/%Y')
+        
+        msg.posicion.position.x = random()
+        msg.posicion.orientation.w = random()
+                               
+        self.publisher_.publish(msg)
+        self.get_logger().info(f"Enviando mensaje: numero={msg.numero} x={msg.posicion.position.x:.4f}, w={msg.posicion.orientation.w:.4f}, fecha={msg.fecha}")       
 
 
 def main(args=None):

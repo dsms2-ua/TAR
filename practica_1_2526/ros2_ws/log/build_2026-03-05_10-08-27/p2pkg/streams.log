@@ -1,0 +1,23 @@
+[2.418s] Invoking command in '/workspace/ros2_ws/src/p2pkg': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2pkg build --build-base /workspace/ros2_ws/build/p2pkg/build install --record /workspace/ros2_ws/build/p2pkg/install.log --single-version-externally-managed install_data
+[2.880s] running egg_info
+[2.885s] writing ../../build/p2pkg/p2pkg.egg-info/PKG-INFO
+[2.885s] writing dependency_links to ../../build/p2pkg/p2pkg.egg-info/dependency_links.txt
+[2.885s] writing entry points to ../../build/p2pkg/p2pkg.egg-info/entry_points.txt
+[2.885s] writing requirements to ../../build/p2pkg/p2pkg.egg-info/requires.txt
+[2.885s] writing top-level names to ../../build/p2pkg/p2pkg.egg-info/top_level.txt
+[2.886s] reading manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+[2.892s] adding license file 'LICENSE'
+[2.893s] writing manifest file '../../build/p2pkg/p2pkg.egg-info/SOURCES.txt'
+[2.893s] running build
+[2.893s] running build_py
+[2.893s] running install
+[2.893s] running install_lib
+[2.893s] running install_data
+[2.893s] running install_egg_info
+[2.895s] removing '/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.896s] Copying ../../build/p2pkg/p2pkg.egg-info to /workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages/p2pkg-0.0.0-py3.10.egg-info
+[2.897s] running install_scripts
+[2.934s] Installing client script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[2.934s] Installing server script to /workspace/ros2_ws/install/p2pkg/lib/p2pkg
+[2.935s] writing list of installed files to '/workspace/ros2_ws/build/p2pkg/install.log'
+[2.972s] Invoked command in '/workspace/ros2_ws/src/p2pkg' returned '0': CMAKE_PREFIX_PATH=/workspace/ros2_ws/install/interfaz:/workspace/ros2_ws/install/interfaz_servicio_suma LD_LIBRARY_PATH=/workspace/ros2_ws/install/interfaz/lib:/workspace/ros2_ws/install/interfaz_servicio_suma/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/workspace/ros2_ws/build/p2pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/ros2_ws/install/p2pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2pkg build --build-base /workspace/ros2_ws/build/p2pkg/build install --record /workspace/ros2_ws/build/p2pkg/install.log --single-version-externally-managed install_data

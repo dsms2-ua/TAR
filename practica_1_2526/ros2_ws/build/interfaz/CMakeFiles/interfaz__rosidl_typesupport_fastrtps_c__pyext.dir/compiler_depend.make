@@ -264,8 +264,17 @@ CMakeFiles/interfaz__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_p
   rosidl_generator_c/interfaz/action/detail/fibonacci__functions.h \
   rosidl_generator_c/interfaz/action/detail/ej_fibonacci__type_support.h \
   rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h \
-  rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h
+  rosidl_generator_c/interfaz/action/detail/ej_fibonacci__functions.h \
+  rosidl_generator_c/interfaz/action/detail/battery__type_support.h \
+  rosidl_generator_c/interfaz/action/detail/battery__struct.h \
+  rosidl_generator_c/interfaz/action/detail/battery__functions.h
 
+
+rosidl_generator_c/interfaz/action/detail/battery__functions.h:
+
+rosidl_generator_c/interfaz/action/detail/battery__struct.h:
+
+rosidl_generator_c/interfaz/action/detail/battery__type_support.h:
 
 rosidl_generator_c/interfaz/action/detail/ej_fibonacci__struct.h:
 

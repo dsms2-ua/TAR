@@ -8,14 +8,14 @@ def generate_launch_description():
     numero_argumento = DeclareLaunchArgument(
         'numero_argumento',
         default_value='7',
-        description='Número entero de entrada para Fibonacci'
+        description='Número entero para el campo numero'
     )
 
     # Definimos el nodo publicador con el argumento
     nodo_publicador = Node(
-        package='mi_accion',
+        package='p2pkg',
         executable='server',
-        name='fibonacci_server',
+        name='pub_ej3',
         parameters=[{
             'numero': LaunchConfiguration('numero_argumento')
         }]
@@ -23,9 +23,9 @@ def generate_launch_description():
 
     # Definimos el nodo suscriptor
     nodo_suscriptor = Node(
-        package='mi_accion',
+        package='p2pkg',
         executable='client',
-        name='fibonacci_client'
+        name='sub_ej3'
     )
 
     # Devolvemos la configuración completa del launcher
